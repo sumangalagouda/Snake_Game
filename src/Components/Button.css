@@ -10,10 +10,16 @@
     justify-content: space-around;
     margin: 10px;
 }
+.buttons{
+    width:300px;
+    height:300px;
+    margin:auto;
+}
+
 
 .left,
 .right {
-    margin: 30px;
+    margin: 20px;
     padding: 20px;
     border: 0px solid;
     border-radius: 20px;

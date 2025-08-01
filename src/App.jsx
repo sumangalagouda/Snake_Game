@@ -15,6 +15,7 @@ const randomFood=()=>{
   return [x,y];
 };
 function App() {
+  document.title="Snake_Game";
       const [snakeDot,setSnakeDot]=useState([[0,0],[0,2],]);
       const [food,setFood]=useState(randomFood());
       const [route,setRoute]=useState("menu");

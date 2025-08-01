@@ -1,6 +1,6 @@
 .wrapper {
     position: relative;
-    width: 200px;
+    width: 250px;
     height: 250px;
     border: 2px solid #dc042c;
     margin: 50px auto;
@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius:50%;
     
 }
 .start {
